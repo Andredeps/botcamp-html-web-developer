@@ -1,41 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Linkando a pagina de estilo externo -->
     <link rel="stylesheet" href="./css/style.css">
+
     <title>Instagram</title>
 </head>
-<body>
-    <div class="instagram-wrapper">
-        <div class="instagram-phone">
-            <img src="./imagens/instagram-celular.png" alt="celular">
-        </div>
-        <div class="instagram-continue">
-            <div class="group">
-                <img src="./imagens/instagram-logo.png" class="instagram-logo" alt="instagram logo">
-                <div class="profile-photo">
-                    <img src="./imagens/perfil-instagram.jpg" alt="foto de perfil">
+
+    <body>
+        <!-- Inicio do site, definindo a classe da div principal -->
+        <div class="principal">
+            <!-- Inserindo a imagem esquerda do celular em uma div -->
+            <div class="fotoCelular">
+                <img src="./imagens/celular.png" alt="celular">
+            </div>
+            <!-- Definindo o compartimento da direita e suas classes -->
+            <div class="direita">
+                <!-- Inserindo a logo e formulario -->
+                <div class="grupo1">
+                    <!-- inserindo a logo do instagram -->
+                    <img src="./imagens/instagram-logo.png" alt="Logo Instagam">
+                    <!-- Inserindo formulario -->
+                    <div class="login">
+                        <!-- Formulario -->
+                        <form action="#" class="login" method="GET">
+                            <!-- Campo para inserir email -->
+                            <input class="email" type="text" id="email" name="email" placeholder="Telefone, nome de usuario ou email">
+                            <!-- Campo para senha -->
+                            <input class="senha" type="password" id="senha" name="senha" placeholder="Senha">
+                            <!-- Botao Entrar -->
+                            <button class="botao" type="button">Entrar</button>
+                        </form>
+                        <!-- Textos e links -->
+                        <!-- OU -->
+                        <p class="ou">OU</p>
+                        <!-- Entrar com FB -->
+                        <a href="#" class="entrarComFb">Entrar com o Facebook</a>
+                        <!-- Esqueceu a Senha -->
+                        <a href="#" class="esqueceuSenha" >Esqueceu a senha?</a>
+                    </div>
+                    <!-- Segundo grupo cadastre-se -->
+                    <div class="grupo2">
+                        <!-- Texto nao tem uma conta -->
+                        <p class="naoTemConta">Nao tem uma conta?</p>
+                        <!-- Link Cadastre-se -->
+                        <span class="cadastre-se">Cadastre-se</span>
+                    </div>
+                    <!-- Botoes para obter o aplicativo -->
+                    <div class="obtenhaAplicativo">
+                        <!-- Texto baixe o app -->
+                        <p class="obtenhaApp">Baixe o aplicativo.</p>
+                        <!-- Compartimento para os botoes para download dos aplicativos -->
+                        <div class="aplicativos">
+                            <a href="#" class="downloadApp"></a>
+                            <a href="#" class="downloadApp"></a>
+                        </div>
+                    </div>
                 </div>
-                <a href="#" class="instagram-login">Continue como sprucegabriela</a>
-                <a href="#" class="instagram-logout">Remover conta</a>
-            </div>
-            <div class="group">
-                <p class="not-account">Não é sprucegabriela?</p>
-                <p class="not-account">
-                    <span class="link-blue">Alternar contas</span>
-                    ou
-                    <span class="link-blue">Inscreva-se</span>
-                </p>
-            </div>
-            <div class="get-the-app">
-                <p class="get-app">Baixe o aplicativo</p>
-                <div class="download">
-                    <a href="#" class="app-download"></a>
-                    <a href="#" class="app-download"></a>
-                </div>
             </div>
         </div>
-    </div>
-</body>
+    </body>
 </html>
