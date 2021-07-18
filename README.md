@@ -14,7 +14,7 @@
 
 ## Introdução a Programação com JavaScript :heavy_check_mark:
 
-## Recriando a Interface do Netflix
+## Recriando a Interface do Netflix :heavy_check_mark:
 
 ## Construindo páginas para internet com Bootstrap
 
