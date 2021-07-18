@@ -1,1 +1,178 @@
 /* Zerando os valores pre-definidos */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+/* Definindo o estilo do corpo do site */
+body {
+    width: 100%;
+    min-width: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Definindo o estilo de todo o conteudo principal */
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+/* Definindo o estilo da foto do celular na esquerda */
+.fotoCelular {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+/* Definindo o altura da imagem do celular */
+.fotoCelular img {
+    height: 50rem;
+}
+
+/* Estilizando os compnentes da direita (login) */
+.direita {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+/* Estilizando o primeiro grupo (formulario) */
+.grupo1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem;
+    border: 1px solid lightgray;
+}
+
+/* Definindo altura da logo */
+.logo {
+    height: 3rem;
+}
+
+/* Definindo estilo do formulario */
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.3rem;
+
+}
+
+/* Estilo do campo email */
+.email {
+    width: 100%;
+    background: rgb(250, 250, 250);
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 5px;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+}
+
+
+/* Estilo do campo senha */
+.senha {
+    width: 100%;
+    background: rgb(250, 250, 250);
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 5px;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+}
+
+/* Estilizando botao de entrar */
+#entrar {
+    width: 100%;
+    border: none;
+    margin: 5px;
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Estilo do link entrar com Fb */
+.entrarComFb {
+    color: blue;
+    padding: 8px;
+}
+
+/* Estilo de esqueci minha senha */
+.esqueceuSenha {
+    font-size: 12px;
+    padding: 8px;
+}
+
+/* Estilos do segundo grupo  */
+.grupo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem;
+    border: 1px solid lightgray;
+}
+
+/* Estilo do link cadastre-se*/
+.cadastre {
+    color: #0095f6;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+/* Estilo do terceiro grupo onde baixa o aplicativo */
+.grupo3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.3rem 0;
+    width: 100%;
+}
+
+.aplicativos {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.downloadApp:nth-child(1) {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+    background-image: url(../imagens/appstore.png);
+}
+
+.downloadApp:nth-child(2) {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+    background-image: url(../imagens/gplay.png);
+}
