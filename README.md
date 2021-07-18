@@ -10,7 +10,7 @@
 
 ## Recriando a página inicial do Instagram :heavy_check_mark:
 
-## Programação para internet com JavaScript
+## Programação para internet com JavaScript :heavy_check_mark:
 
 ## Introdução a Programação com JavaScript
 
