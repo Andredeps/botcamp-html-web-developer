@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Folha de Pagamento</title>
+</head>
+<body>
+    <h1>Folha de Pagamento</h1>
+
+    <script>
+        // Pedir para o usuario inserir o seu numero de matricula
+        let valor1 = prompt("Insira o seu numero de matricula: ");
+        // Converter a entrada do usuario em um numero inteiro
+        valor1 = parseInt(valor1);
+        // Pedir para o usuario inserir a quantidade de horas trabalhadas
+        let valor2 = prompt("Insira a quantidade de horas trabalhadas: ");
+        // Pedir para o usuario inserir o valor que ele recebe por hora trabalhada
+        let valor3 = prompt("Insira o valor que voce recebe por hora trabalhada :");
+        // Converter a entrada em numeros decimais
+        valor3 = parseFloat(valor3);
+        // Atribuir a variavel salary o calculo do salário
+        salary = parseFloat(valor2 * valor3);
+        // Mostrar console o numero de matricula e o salário
+        console.log("NUMBER =" + valor1);
+        console.log("SALARY =" + " U$ " + salary);
+    </script>
+</body>
+</html>

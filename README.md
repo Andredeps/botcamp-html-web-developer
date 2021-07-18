@@ -12,7 +12,7 @@
 
 ## Programação para internet com JavaScript :heavy_check_mark:
 
-## Introdução a Programação com JavaScript
+## Introdução a Programação com JavaScript :heavy_check_mark:
 
 ## Recriando a Interface do Netflix
 
