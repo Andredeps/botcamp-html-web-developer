@@ -16,7 +16,7 @@
 
 ## Recriando a Interface do Netflix :heavy_check_mark:
 
-## Construindo páginas para internet com Bootstrap
+## Construindo páginas para internet com Bootstrap :heavy_check_mark:
 
 ## Fundamentos Aritméticos em JavaScript
 
