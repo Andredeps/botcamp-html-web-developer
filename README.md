@@ -18,6 +18,6 @@
 
 ## Construindo páginas para internet com Bootstrap :heavy_check_mark:
 
-## Fundamentos Aritméticos em JavaScript
+## Fundamentos Aritméticos em JavaScript :heavy_check_mark:
 
 ## Recriando o jogo da Cobrinha com JavaScript
