@@ -20,4 +20,4 @@
 
 ## Fundamentos Aritméticos em JavaScript :heavy_check_mark:
 
-## Recriando o jogo da Cobrinha com JavaScript
+## Recriando o jogo da Cobrinha com JavaScript :heavy_check_mark:
